@@ -25,6 +25,8 @@ export class Deck {
     }
 
     pickCards(nb = 1){
-        return this.cards.slice(0, nb - 1)
+        let cards = this.cards.slice(0, nb - 1)
+        this.cards = this.cards.slice(nb, this.cards.length - 1 - nb)
+        return cards
     }
 }
