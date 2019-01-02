@@ -1,0 +1,178 @@
+[
+    {
+        "name": "tiger",
+        "description": "The power of your Art projects itself like a shadow. <br /> Sense your opponent's fear, and pounce with certainty and strength.",
+        "pattern": [
+            [0,0,1,0,0],
+            [0,0,0,0,0],
+            [0,0,2,0,0],
+            [0,0,1,0,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "dragon",
+        "description": "Be swift as the thunder that peals before you have a chance to cover your ears, <br /> fast as the lightning that flashes before you can blink your eyes.",
+        "pattern": [
+            [0,0,0,0,0],
+            [1,0,0,0,1],
+            [0,0,2,0,0],
+            [0,1,0,1,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "frog",
+        "description": "Do not fail to learn from the pure voice of an ever-flowing mountain stream splashing over ther rocks. Emulate its flow, mimic its power.",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,1,0,0,0],
+            [1,0,2,0,0],
+            [0,0,0,1,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "rabbit",
+        "description": "Be near to your opponent, blinding him with your speed. The Art of the Rabbit is the Art of speed.",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,0,0,1,0],
+            [0,0,2,0,1],
+            [0,1,0,0,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "crab",
+        "description": "Move with your opponent's movements, as if you are the never-ceasing tide. When the time is right, he will fall prey to your attack.",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,0,1,0,0],
+            [1,0,2,0,1],
+            [0,0,0,0,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "elephant",
+        "description": "Only the strong may pursue your Art. This is why it is the true Art, the Art that cannot be stopped.",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,1,0,1,0],
+            [0,1,2,1,0],
+            [0,0,0,0,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "goose",
+        "description": "",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,1,0,0,0],
+            [0,1,2,1,0],
+            [0,0,0,1,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "rooster",
+        "description": "",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,0,0,1,0],
+            [0,1,2,1,0],
+            [0,1,0,0,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "monkey",
+        "description": "",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,1,0,1,0],
+            [0,0,2,0,0],
+            [0,1,0,1,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "mantis",
+        "description": "",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,1,0,1,0],
+            [0,0,2,0,0],
+            [0,0,1,0,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "horse",
+        "description": "",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,0,1,0,0],
+            [0,1,2,0,0],
+            [0,0,1,0,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "ox",
+        "description": "",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,0,1,0,0],
+            [0,0,2,1,0],
+            [0,0,1,0,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "crane",
+        "description": "",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,0,1,0,0],
+            [0,0,2,0,0],
+            [0,1,0,1,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "boar",
+        "description": "",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,0,1,0,0],
+            [0,1,2,1,0],
+            [0,0,0,0,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "eel",
+        "description": "",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,1,0,0,0],
+            [0,0,2,1,0],
+            [0,1,0,0,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "cobra",
+        "description": "",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,0,0,1,0],
+            [0,1,2,0,0],
+            [0,0,0,1,0],
+            [0,0,0,0,0]
+        ]
+    }
+]
