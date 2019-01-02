@@ -3,6 +3,8 @@ export interface IPosition {
     y: number
 }
 
+export interface IMove extends IPosition {}
+
 export const BOARD_DEFAULT_HEIGHT = 5
 export const BOARD_DEFAULT_WIDTH = 5
 
