@@ -67,7 +67,7 @@
     },
     {
         "name": "goose",
-        "description": "",
+        "description": "Your robes are your cloak of feathers, spread your wings to hide your intetions. Even then, as your oppoent seeks to determine your motive, you shall strike.",
         "pattern": [
             [0,0,0,0,0],
             [0,1,0,0,0],
@@ -78,7 +78,7 @@
     },
     {
         "name": "rooster",
-        "description": "",
+        "description": "Do not allow your enemy to rest, but focus your Art to deliver quick, sharp strikes whenever he lags.",
         "pattern": [
             [0,0,0,0,0],
             [0,0,0,1,0],
@@ -89,7 +89,7 @@
     },
     {
         "name": "monkey",
-        "description": "",
+        "description": "Without deception you cannot carry out Strategy, without strategy you cannot control the opponent.",
         "pattern": [
             [0,0,0,0,0],
             [0,1,0,1,0],
@@ -100,7 +100,7 @@
     },
     {
         "name": "mantis",
-        "description": "",
+        "description": "Your opponent sees, but does not understand. Distract the wanchful, misguide the wary. This is the Art of the Mantis, the Art of the deceptive strike.",
         "pattern": [
             [0,0,0,0,0],
             [0,1,0,1,0],
@@ -111,7 +111,7 @@
     },
     {
         "name": "horse",
-        "description": "",
+        "description": "Lose yourself in the rythms of your Art. At times be swift and decisive, at other times measured and taunting.",
         "pattern": [
             [0,0,0,0,0],
             [0,0,1,0,0],
@@ -122,7 +122,7 @@
     },
     {
         "name": "ox",
-        "description": "",
+        "description": "Pour your strength into the forms of your Art in its punches, its kicks, in the steady advance of your aggression.",
         "pattern": [
             [0,0,0,0,0],
             [0,0,1,0,0],
@@ -133,7 +133,7 @@
     },
     {
         "name": "crane",
-        "description": "",
+        "description": "Make no unnecessary movement, conserving your strength until the time is right to strike. The true Art is a symphony of graceful strikes.",
         "pattern": [
             [0,0,0,0,0],
             [0,0,1,0,0],
@@ -144,7 +144,7 @@
     },
     {
         "name": "boar",
-        "description": "",
+        "description": "Watch for opportunity, for it will present itself. Then strike, focusing all your might into a single rush, trampling your opponent's Art under your own.",
         "pattern": [
             [0,0,0,0,0],
             [0,0,1,0,0],
@@ -155,7 +155,7 @@
     },
     {
         "name": "eel",
-        "description": "",
+        "description": "If your opponent strikes with fire, counter with water, becoming completely fluid ad freellowing.",
         "pattern": [
             [0,0,0,0,0],
             [0,1,0,0,0],
@@ -166,7 +166,7 @@
     },
     {
         "name": "cobra",
-        "description": "",
+        "description": "Attack violently when your opponents are not expecting it show leisure in the beginning, then suddenly attack vigorously.",
         "pattern": [
             [0,0,0,0,0],
             [0,0,0,1,0],
