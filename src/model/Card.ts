@@ -1,10 +1,12 @@
+import { Pattern } from "./Onitama";
+
 export class Card {
 
     public name: string
     public description: string
-    public pattern: string
+    public pattern: Pattern
 
-    constructor(){
+    constructor(name: string, s){
 
     }
 
