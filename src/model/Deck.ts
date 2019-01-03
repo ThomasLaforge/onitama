@@ -18,8 +18,8 @@ export class Deck {
     }
 
     shuffle(){
-        function shuffler(a) {
-            let b = []
+        function shuffler(a: Card[]) {
+            let b: Card[] = []
             for (let i = a.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
                 [b[i], b[j]] = [a[j], a[i]];
