@@ -1,10 +1,16 @@
 import { Card } from "./Card";
+import { IJsonCard } from "./Onitama";
+
+const DEFAULT_CARDS = require('../datas/move_cards.json').map( 
+    (cJson: IJsonCard) => new Card(cJson.name, cJson.description, cJson.pattern)
+)
+
 
 export class Deck {
 
     public cards: Card[]
     
-    constructor(cards: Card[], shuffle = true) {
+    constructor(cards: Card[] = DEFAULT_CARDS, shuffle = true) {
         this.cards = cards
         if(shuffle){
             this.shuffle()
