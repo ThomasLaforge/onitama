@@ -35,4 +35,8 @@ export class Deck {
         this.cards = this.cards.slice(nb, this.cards.length - 1 - nb)
         return cards
     }
+
+    get length(){
+        return this.cards.length
+    }
 }
