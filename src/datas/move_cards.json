@@ -1,7 +1,7 @@
 [
     {
         "name": "tiger",
-        "description": "The power of your Art projects itself like a shadow. <br /> Sense your opponent's fear, and pounce with certainty and strength.",
+        "description": "The power of your Art projects itself like a shadow. Sense your opponent's fear, and pounce with certainty and strength.",
         "pattern": [
             [0,0,1,0,0],
             [0,0,0,0,0],
@@ -12,7 +12,7 @@
     },
     {
         "name": "dragon",
-        "description": "Be swift as the thunder that peals before you have a chance to cover your ears, <br /> fast as the lightning that flashes before you can blink your eyes.",
+        "description": "Be swift as the thunder that peals before you have a chance to cover your ears, fast as the lightning that flashes before you can blink your eyes.",
         "pattern": [
             [0,0,0,0,0],
             [1,0,0,0,1],

@@ -19,15 +19,14 @@ export class Deck {
 
     shuffle(){
         function shuffler(a: Card[]) {
-            let b: Card[] = []
             for (let i = a.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
-                [b[i], b[j]] = [a[j], a[i]];
+                [a[i], a[j]] = [a[j], a[i]];
             }
-            return b;
+            return a;
         }
 
-        this.cards = shuffler(this.cards) 
+        this.cards = shuffler(this.cards.slice()) 
     }
 
     pickCards(nb = 1){

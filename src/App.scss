@@ -1,32 +1,107 @@
-.App {
-  text-align: center;
+* {
+  margin: O;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.game {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+
+  
+  .game-opponent-cards, .game-player-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .game-opponent-cards {
+    border: 1px solid red;
+  }
+  .game-player-card {
+    border: 1px solid blue;
+  }
+
+  .game-common-parts {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    .game-board {
+      width: 400px;
+      height: 400px;
+
+      .grid {
+        width: 100%;
+        height: 100%;
+
+        .grid-content {
+          
+        width: 100%;
+        height: 100%;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+
+          .line {
+            display: flex;
+            flex-direction: row;
+            height: 1/5 * 100%;
+
+            .case {
+              width: 1 / 5 * 100%;
+              height: 100%;
+              border: 1px solid black;
+            }
+            .case-possibility {
+              background-color: lightblue;
+            }
+          }
+        }
+      }
+    }
+
+    .game-next-card {}
+
+  }
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+.card {
+  border: 1px black solid;
+  border-radius: 10px;
+  width: 400px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .card-pattern {
+    .pattern-grid {
+      height: 100px;
+      width: 100px;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .pattern-case {
+        width: 1 / 5 * 100%;        
+        border: 1px solid;
+      }
+
+      .pattern-type-empty { background-color: white; }
+      .pattern-type-possibility { background-color: grey; }
+      .pattern-type-piece { background-color: black; }
+    }
   }
-  to {
-    transform: rotate(360deg);
+
+  .card-name {
+    text-align: center;
+    font-weight: bold;
   }
+  .card-description {
+    text-align: center;
+  }
+
+}
+.card-selected {
+  border-color: green;
 }

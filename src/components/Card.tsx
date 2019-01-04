@@ -1,10 +1,11 @@
 import React, { Component, ReactChildren } from 'react'
 import { Pattern, PatternCase } from '../model/Onitama';
+import { Card as OCard } from '../model/Card'
 
 interface CardProps {
-    name: string
-    description: string
-    pattern: Pattern
+    object: OCard
+    selected?: boolean
+    onSelect?: Function
 }
 interface CardState {
 }
@@ -27,7 +28,7 @@ export class Card extends Component<CardProps, CardState> {
                 
                 let patternCN = ''
 
-                switch (this.props.pattern[y][x]) {
+                switch (this.props.object.pattern[y][x]) {
                     case PatternCase.Empty:         patternCN = 'empty'; break;
                     case PatternCase.Piece:         patternCN = 'piece'; break;
                     case PatternCase.Possibility:   patternCN = 'possibility'; break;                    
@@ -43,11 +44,14 @@ export class Card extends Component<CardProps, CardState> {
     }
 
     render() {
+        const { name, description } = this.props.object
         return (
-            <div className={'card'}>
+            <div className={'card' + (this.props.selected ? ' card-selected' : '')} 
+                onClick={() => this.props.onSelect && this.props.onSelect()}
+            >
                 <div className="card-pattern">{this.renderPattern()}</div>  
-                <div className="card-name">{this.props.name}</div>  
-                <div className="card-description">{this.props.description}</div>  
+                <div className="card-name">{name}</div>  
+                <div className="card-description">{description}</div>  
             </div>
         )
     }
