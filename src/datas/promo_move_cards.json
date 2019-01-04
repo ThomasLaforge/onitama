@@ -1,0 +1,46 @@
+[
+    {
+        "name": "goat",
+        "description": "Strategy flows from the mind. Deny your opponents clear thought through strikes at their head and eyes, and their strategy will fail, providing the chance to strike.",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,0,0,1,0],
+            [0,1,2,0,0],
+            [0,0,1,0,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "sheep",
+        "description": "Follow your opponent's movements, shadow his forms. The Art of the Sheep is the art of knowing, and of using your opponent's strengths against his weaknesses.",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,1,0,0,0],
+            [0,0,2,1,0],
+            [0,0,1,0,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "phoenix",
+        "description": "No opponent expects that which he believes is not there. Harness the shadows, bend the sun, strike as the wind - from a place unseen.",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,1,0,1,0],
+            [1,0,2,0,1],
+            [0,0,0,0,0],
+            [0,0,0,0,0]
+        ]
+    },
+    {
+        "name": "turtle",
+        "description": "Within your sphere of power, your Art remains supreme. Engage your opponent, and deflect his strikes.",
+        "pattern": [
+            [0,0,0,0,0],
+            [0,0,0,0,0],
+            [1,0,2,0,1],
+            [0,1,0,1,0],
+            [0,0,0,0,0]
+        ]
+    }
+]
