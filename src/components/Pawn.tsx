@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 interface PawnProps {
+  isFirstPlayer: boolean
 }
 interface PawnState {
 }
@@ -15,8 +16,10 @@ export class Pawn extends Component<PawnProps, PawnState> {
 
   render() {
     return (
-      <div className='pawn'>
-        
+      <div className={'pawn ' +
+        (this.props.isFirstPlayer ? 'pawn-first-player' : 'pawn-second-player')
+      }>
+        Pawn
       </div>
     )
   }

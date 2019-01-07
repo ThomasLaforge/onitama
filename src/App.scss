@@ -4,6 +4,7 @@
 }
 
 .game {
+  background-color: rgb(120, 120, 120);
   width: 100%;
   height: 100%;
   display: flex;
@@ -27,6 +28,8 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: space-around;
+    align-items: center;
 
     .game-board {
       width: 400px;
@@ -96,12 +99,24 @@
   .card-name {
     text-align: center;
     font-weight: bold;
+    font-size: 24px;
   }
   .card-description {
     text-align: center;
+    font-size: 12px;
   }
 
 }
 .card-selected {
   border-color: green;
+  border-width: 3px;
+}
+
+.pawn {
+}
+.pawn-first-player{
+  color: blue;
+} 
+.pawn-second-player{
+  color: red;
 }

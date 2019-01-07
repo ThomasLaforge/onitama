@@ -21,3 +21,12 @@ export enum PatternCase {
 } 
 
 export type Pattern = PatternCase[][]
+
+export enum PieceType {
+    Pawn,
+    King
+}
+
+export interface IBoardPiece extends IPosition {
+    isFirstPlayer: boolean
+}

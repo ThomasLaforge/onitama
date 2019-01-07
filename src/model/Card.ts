@@ -12,8 +12,9 @@ export class Card {
         this.pattern = pattern
     }
 
-    getMPossibleMoves(){
+    getPossibleMoves(){
         let moves: IMove[] = []
+        
         for (let j = 0; j < this.pattern.length; j++) {
             for (let i = 0; i < this.pattern[j].length; i++) {
                 if(this.pattern[j][i] === PatternCase.Possibility){
@@ -25,5 +26,11 @@ export class Card {
                 }
             }            
         }
+
+        return moves
+    }
+
+    is(c: Card){
+        return this.name = c.name
     }
 }

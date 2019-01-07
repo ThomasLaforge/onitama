@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
-import { IPosition } from '../model/Onitama';
+import { IPosition, IBoardPiece } from '../model/Onitama';
+import Pawn from './Pawn';
 
 interface GridProps {
     width?: number
     heigth?: number
-    pieces: any
+    pieces: IBoardPiece[]
     possibilities?: IPosition[]
     onCaseClick?: Function
+    firstPlayerId: string
 }
 interface GridState {
     width: number
@@ -24,15 +26,19 @@ export class Grid extends Component<GridProps, GridState> {
     }
 
     renderCase(x:number, y: number){
-        const caseContent = null
         const isPossibilty = this.props.possibilities && this.props.possibilities.findIndex( (p: IPosition) => p.x === x && p.y === y) !== -1
+        const pieceIndex = this.props.pieces.findIndex(p => p.x === x && p.y === y)
+        const isPiece = pieceIndex !== -1
+
         return <div key={x + '-' + y}
             className={
                 'case case-' + y + '-' + x +
                 (isPossibilty ? ' case-possibility' : '')
             }
             onClick={() => this.props.onCaseClick && this.props.onCaseClick({x, y})}
-        />
+        >
+            {isPiece && <Pawn isFirstPlayer={this.props.pieces[pieceIndex].isFirstPlayer} /> }
+        </div>
     }
 
     renderLine(y: number){

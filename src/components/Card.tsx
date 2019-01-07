@@ -34,7 +34,7 @@ export class Card extends Component<CardProps, CardState> {
                     case PatternCase.Possibility:   patternCN = 'possibility'; break;                    
                 }
                 
-                patternGrid[y].push(<div className={`pattern-case pattern-case-${y}-${x} pattern-type-${patternCN}`} />)
+                patternGrid[y].push(<div key={`${x}-${y}`} className={`pattern-case pattern-case-${y}-${x} pattern-type-${patternCN}`} />)
             }            
         }
 
